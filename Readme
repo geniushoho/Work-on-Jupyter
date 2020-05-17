@@ -1,0 +1,29 @@
+%jupyter notebook
+localhost:8888 #chrome
+
+## import ##
+import xmath
+#print xmath.max(10, 5)
+import xmath as math # 為 xmath 模組取別名為 math
+#print math.e
+from xmath import min  # 將 min 複製至目前模組，不建議 from modu import *，易造成名稱衝突
+#print min(10, 5)
+
+
+## Jupyter Crawler ##
+http://nbviewer.jupyter.org/gist/bryanyang0528/8bf8a31e6ef67c3118fa
+
+####http://takuma-nekomayoi-blog.logdown.com/posts/2016/02/09/python-introduction-to-python-crawler-notes
+HTTP Request
+from urllib.request import urlopen
+HTML Parser
+from bs4 import BeautifulSoup
+Regex(Regular Expression)
+import re
+#
+BeautifulSoup 安裝 python3
+pip3 install BeautifulSoup
+#
+from json import load
+from pprint import pprint
+
